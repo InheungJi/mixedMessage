@@ -1,4 +1,4 @@
-let messageList = [
+let _messageList = [
     'A beautiful, smart, and loving person will be coming into your life.',
     'A dubious friend may be an enemy in camouflage.',
     'A faithful friend is a strong defense.',
@@ -356,3 +356,23 @@ let messageList = [
     'Your talents will be recognized and suitably rewarded.',
     'Your work interests can capture the highest status or prestige.',
 ];
+
+const randomMessage = (messageList) => {
+    console.log("function works");
+    let numberOfMessages = messageList.length;
+    return messageList[Math.floor(Math.random() * numberOfMessages)];
+}
+
+const generateRandomMessage = () =>{
+    replaceSrc();
+    setTimeout(()=>{
+        return document.getElementById("print").innerHTML = randomMessage(_messageList);
+    },1000);
+    
+};
+
+function replaceSrc(){
+    let image = document.getElementById('ball');
+    image.src ="./zcX5aX5di.gif";
+}
+
