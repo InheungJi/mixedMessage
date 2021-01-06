@@ -1,8 +1,30 @@
+html{
+    background-color:black;
+}
 h1{
     text-align: center;
+    font-size: 3rem;
+    color: gold;
 }
 
 #print { 
     text-align: center;
-    font-size: 2em;
+    font-size: 2rem;
+    color: azure;
+    margin-bottom: 2rem;
+}
+
+#ball{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+div{
+   
+    text-align: center;
+}
+button{
+    color:yellow;
+    background-color: black;
 }
